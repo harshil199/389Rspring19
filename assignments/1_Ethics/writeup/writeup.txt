@@ -1,0 +1,18 @@
+# Writeup 1 - Ethics
+
+Name: Harshil S Patel
+Section: 0101
+
+I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examniation.
+
+Digital acknowledgement: Harshil S Patel
+
+## Assignment Writeup
+
+### Part 1 (25 pts)
+
+https://github.com/harshil199/389Rspring19
+
+### Part 2 (75 pts)
+
+Whenever you are dealing with the general public safety, I think that you should have well thought out approach. Many engineering codes of ethics have one main thing that they say that every engineer should follow and "should not harm the general public" is usually part of that code. For this matter, I would bring this matter up to my immediate supervisor and see how they are willing to handle the situation.  If after bringing it up to my supervisor I notice that they are not taking the required actions I would start considering bring it up to a consumer watchdog or the general public in order to bring some sort of action. I think that releasing a dangerous product is against my code of ethics if that product will potentially harm someone.  I think that if I do not bring something like this out to the public view, then I would personally be responsible for any harm that was caused to someone. For this reason alone I think that if it came down to it and my company or boss was not willing to take responsibility for a faulty product I would definitely whistleblow. There have been many cases out there that show what happens when a faulty product was released to the public and the engineers or someone in the company knew about it, just look at the ford pinto case and what happened there. 
