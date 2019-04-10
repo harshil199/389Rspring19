@@ -30,8 +30,8 @@ It was generated on Mar,27,2019 4:15:05AM
 
 The authors name was fl1nch.
 
-Section 1  -> Hey you, keep looking :)
-Section 2  -> COORD :  (52.336035,4.880673)
-Section 3  -> PNG file that had the flag - CMSC389R-{w3lc0me_b@ck_fr0m_spr1ng_br3ak}
-Section 4  -> }R983CSMC_perg_tndid_u0y_yllufep0h{-R983CSMC' translated backwards = CMSC389R-{h0pefully_y0u_didnt_grep_CMSC389R}
-Section 5  -> 'Q01TQzM4OVIte2hleV9oM3lfeTBVX3lvdV9JX2RvbnRfbGlrZV95b3VyX2Jhc2U2NF9lbmNvZGluZ30='
+Section 1  ASCII-> Hey you, keep looking :)
+Section 2  COORD-> COORD :  (52.336035,4.880673)
+Section 3  PNG -> PNG file that had the flag - CMSC389R-{w3lc0me_b@ck_fr0m_spr1ng_br3ak}
+Section 4  ASCII-> }R983CSMC_perg_tndid_u0y_yllufep0h{-R983CSMC' translated backwards = CMSC389R-{h0pefully_y0u_didnt_grep_CMSC389R}
+Section 5  ASCII-> 'Q01TQzM4OVIte2hleV9oM3lfeTBVX3lvdV9JX2RvbnRfbGlrZV95b3VyX2Jhc2U2NF9lbmNvZGluZ30='
