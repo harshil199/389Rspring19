@@ -17,9 +17,9 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 4. From wireshark I was able to determine that the attackers were using port 21 which is FTP
 5. 
 		a) From wireshark I was able to see that the attackers stole a file that was a jpeg image of people on a beach.
-		b) Jpeg file
-		c) Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay
-		d) Sun, 23 December 2018 at 05:16:24 PM
+		b) Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay
+		c) Sun, 23 December 2018 at 05:16:24 PM
+		d) iphone 8
 		e) 4.5 meters above sealevel
 6. The hackers left a file called greetz.fpff on the server.
 7. One counter measure that is easy to take is to use stronger passwords. Many people dont realize how simple their password is and can be cracked easily with wordlists. 
