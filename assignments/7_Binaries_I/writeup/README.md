@@ -12,11 +12,38 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 
 ### Part 1 (90 Pts)
 
-*Put your code here as well as in main.c*
-```c
-printf("your code here");
-```
+#include <stdio.h>
+
+int main()
+{
+// Assign values to a and b
+int str1 = 0x1ceb00da;
+int str2 = 0xfeedface;
+
+// Print the value of a
+printf("str2 = %d\n", str2);
+
+// Print the value of b
+printf("str1 = %d\n", str1);
+
+// Swap the values of a and b
+str2 ^= str1;
+str1 ^= str2;
+str2 ^= str1;
+
+// Print the value of a
+printf("str2 = %d\n", str2);
+
+// Print the value of b
+printf("str1 = %d\n", str1);
+
+return 0;
+}
+
 
 ### Part 2 (10 Pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+The program prints the 2 values from addresses and then takes 2 values from memory and performs an XOR on them 3 times. After doing that it prints the value. 
+
+
+
