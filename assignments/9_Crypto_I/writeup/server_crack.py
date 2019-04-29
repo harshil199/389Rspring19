@@ -25,13 +25,10 @@ def server_crack():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server_ip, server_port))
     
-    # Parse data and crack 3 times
-    i = 0
-    while i < 3:
-        
+    for i in range(0, 3):
+
         data = s.recv(1024)
 
-        # Prepend lowercase letter to a word in passwords
         for c in characters:
             for p in passwords:
             
@@ -42,7 +39,6 @@ def server_crack():
                 if hashkey in data:
                     print val,":",hashkey
                     s.send(val+"\n")
-        i = i + 1
 
     # Obtain flag after 3 successful cracks
     data = s.recv(1024)
